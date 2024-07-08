@@ -656,5 +656,51 @@ const products = [
       "apparel",
       "mens"
     ]
+  }, 
+  {
+    id: "id1",
+    image: "images/products/backpack.jpg",
+    name: "Backpack",
+    rating: {
+      stars: 4.5,
+      count: 1200,
+    },
+    priceCents: 6000,
+    keywords: [
+      "bags",
+      "schoolbag",
+      "backpack"
+    ]
+  },
+  {
+    id: "id2",
+    image: "images/products/umbrella.jpg",
+    name: "Umbrella",
+    rating: {
+      stars: 4,
+      count: 800,
+    },
+    priceCents: 3000,
+    keywords: [
+      "rain",
+      "umbrella",
+      "raincoat"
+    ]
+  },
+  {
+    id: "id3",
+    image: "images/products/noni-fruit.jpg",
+    name: "Noni fruit and juice",
+    rating: {
+      stars: 5,
+      count: 3090,
+    },
+    priceCents: 5500,
+    keywords: [
+      "noni",
+      "noni juice",
+      "natural supplement",
+      "miracle herb"
+    ]
   }
 ];
